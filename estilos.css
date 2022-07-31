@@ -1,0 +1,217 @@
+body{
+    font-family: sans-serif;
+    background: #e8e8e8;  
+}
+body
+{
+background-color: rgb(0, 0, 0);
+}
+
+.menu{
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    background: #062125; /* abarca el 100% quiero 90%*/
+    width: 100%;     /*  nueva medido con porcentajes ancho máximo 1000 pixeles */
+    max-width:1000px;  /*ancho máximo*/
+   margin:0 auto; /* centrar 20 arriba y abajo */
+}
+.menu li a {  /* para ir a enlaces*/
+    color :#fff;
+    text-decoration: none;  /*quitamos en enlace línea que aparece en enlace*/
+    padding:20px;  /* com son de tipo line */
+    display: block; /* cuando son enlaces se pone block  porque son de tipo en línea*/
+    
+    
+}
+/* se accede a la paseudoclase hover con : */
+.menu li a:hover {
+    background: #1d20d1;  /* abarca el 100%*/
+
+}
+
+/*li p
+{
+    color :#fff;
+    padding:50px;
+}
+/* queremos que los elemenot li no abarquen el 100%
+y queremos poner uno al lado del otro */
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: #e8e8e8;  /* -- fondo --*/
+}
+/*centrar menu  ancoho de 90% podemos poner margen*/
+/* ----------------------- Texto en blanco -----------------------------------*/
+
+/* ---------------------------- Centar imagen -----------------------------------*/
+ul img
+{
+    padding:50px;
+    
+}
+/* ---------------------------- Centar el Texto -----------------------------------*/
+h3{
+    text-align: center;
+    color: #e8e8e8;/* -- color de letra --*/
+    font-size: 50px; /* -- Tamaño de letra --*/
+    padding: 50px;
+}
+
+.titulo{
+    text-align: center;
+    color: #e8e8e8;/* -- color de letra --*/
+    font-size: 50px; /* -- Tamaño de letra --*/
+    padding: 50px;
+}
+th,td{
+    
+    color: #e8e8e8;/* -- color de letra --*/
+   
+        border: 2px solid;
+
+}
+
+ol li
+{
+    
+    color: #e8e8e8;/* -- color de letra --*/
+    text-align: left;
+    
+   
+        
+
+}
+
+section p , a
+{
+    
+    color :#fff;
+    padding: 50px;
+}
+div
+{
+    padding:50px;
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    
+    width: 50%;     /*  nueva medido con porcentajes ancho máximo 1000 pixeles */
+    max-width:1000px;  /*ancho máximo*/
+    margin:0 auto; /* centrar 20 arriba y abajo */
+    text-align: center ;
+}
+.literatura
+{
+    padding:0 auto;
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    
+    width: 100%;     /*  nueva medido con porcentajes ancho máximo 1000 pixeles */
+    max-width:1000px;  /*ancho máximo*/
+    margin:0 auto; /* centrar 20 arriba y abajo */
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: #e8e8e8;/* -- color de letra --*/
+    font-size: 50px; /* -- Tamaño de letra --*/
+}
+
+.dir{
+    text-align: center;
+    color: #e8e8e8;/* -- color de letra --*/
+    font-size: 50px; /* -- Tamaño de letra --*/
+}
+header p ,img
+{
+    color :#fff;
+    padding: 50; /* -- carle un formato al texto --*/
+    
+}header img
+{
+    height: 100%;
+}
+section h5
+{
+    color: #e8e8e8;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+article ,p
+{
+    color: #e8e8e8;
+    
+    
+}
+article h6
+{
+    color: #e8e8e8;
+    text-align: center;
+    font-size: 50px; 
+}
+/* dragones en la literatura imagen */
+article img
+{
+    padding:50px;
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    background: #062125; /* abarca el 100% quiero 90%*/
+    width: 50%;     /*  nueva medido con porcentajes ancho máximo 1000 pixeles */
+    max-width:1000%;  /*ancho máximo*/
+   margin:20px auto; /* centrar 20 arriba y abajo */
+}
+table{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+address{
+    color: #e8e8e8;
+
+}
+/*------- FORMULARIO ----------*/
+.form_2,label,legend
+{
+    text-align: center;
+    color: #f1eae5;
+
+}
+.Fiel
+{
+    margin:auto;
+}
+.Borde
+{
+    border-style:inherit;
+    border:solid rgb(255, 255, 255);
+}
+
+/*------- Responsi ----------*/
+.contenedor
+{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.fondo, fieldset {
+    width: 100%;
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1hYK3q6vyVEeGNJ87CwNnjyg3X0qV-OwmeQ&usqp=CAU "  );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 
+    center;
+     
+
+}

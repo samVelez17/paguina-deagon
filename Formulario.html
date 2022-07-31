@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body id ="fondo">
+    <div class="contenedor"> 
+
+    <h1>Opinion sobre pelicula </h1>
+
+
+    <form id ="form">
+        <fieldset>
+            <legend> CONTACTO </legend>
+            <label>Nombre y Apellido</label>
+            <input type="text" id="nombre" placeholder="Nombre(s) y Apellido(s)">
+
+             <br><br>
+            <label >Email</label>
+            <input type="text" id ="correo"placeholder="EJ kev.kdoe@gmail.com">
+            <br><br>
+
+            <label >Numero de telefono</label>
+            <input type="text" id="num" placeholder="Ej 2214454454">
+            <br><br>
+
+            <label>Pais</label>
+            <select id = "Pais">
+                <option> Argentina</option>
+                <option> Bahamas</option>
+                <option> Chile</option>
+                <option> Dominica</option>
+                <option> Ecuador</option>
+                <option> Guatemala</option>
+                <option> Honduras</option>
+                <option> Jamaica</option>
+                <option> Mexico</option>
+                <option> Nicaragua</option>
+                <option> Panama</option>
+                <option> Republica</option>
+                <option> Suriname</option>
+                <option> Venezuela</option>
+
+            </select>
+            <br>
+            <label>Mensaje</label><br>
+            <textarea rows="5" id="chat"  cols="70"></textarea>
+
+            <br>
+<button type="button" onclick="formularioo()">Enviar</button>
+
+
+
+
+        </fieldset>
+    </form>
+    <script src="dom.js"></script>
+</body>
+</html>
